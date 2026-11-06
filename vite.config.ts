@@ -6,7 +6,7 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     // ADICIONE ESTA LINHA ABAIXO (substitua pelo nome exato do seu repositório no GitHub se for diferente)
-    base: '/chbonato-star/', 
+  //  base: '/chbonato-star/', 
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
